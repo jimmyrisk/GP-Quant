@@ -7,7 +7,7 @@ All companion code was ran successfully with the following versions:
 
 * ``R``: 4.2.1
 * ``Python``: 3.11.4
-  * Packages: ``numpy`` 1.25.2, ``matplotlib`` 3.9.2, ``seaborn`` 0.13.2; ch2 and ch3: ``torch`` 2.0.1, ``gpytorch`` 1.11; ch7: ``tensorflow`` 2.17, ``tensorflow-probability`` 0.24.0
+  * Packages: ``numpy`` 1.25.2, ``matplotlib`` 3.9.2, ``seaborn`` 0.13.2; **ch2 and ch3**: ``torch`` 2.0.1, ``gpytorch`` 1.11; **ch7**: ``tensorflow`` 2.17, ``tensorflow-probability`` 0.24.0
 
 ### Chapter 2 Notebook
 ([Chapter 2 Notebook](./ch2_py.ipynb)) This notebook is in Python and reproduces plots from Chapter 2, demonstrating Gaussian Process surrogates using a synthetic univariate response function \( f(x) = -0.1 x^2 + \sin(3x) \).  It uses the GPyTorch library.  **IMPORTANT!**  Place `easygpr_helper.py` in the same directory as the notebook for the code to run.  
