@@ -12,7 +12,7 @@ All companion code was ran successfully with the following versions:
 ## Table of Contents
 
 ### Chapter 2 Notebook
-([Chapter 2 Notebook](./ch2_py.ipynb)) This notebook is in Python and reproduces plots from Chapter 2, demonstrating Gaussian Process surrogates using a synthetic univariate response function $$f(x) = -0.1 x^2 + \sin(3x)$.  It uses the GPyTorch library.  **IMPORTANT!**  Place `easygpr_helper.py` in the same directory as the notebook for the code to run.  
+([Chapter 2 Notebook](./ch2_py.ipynb)) This notebook is in Python and reproduces plots from Chapter 2, demonstrating Gaussian Process surrogates using a synthetic univariate response function $$f(x) = -0.1 x^2 + \sin(3x)$$.  It uses the GPyTorch library.  **IMPORTANT!**  Place `easygpr_helper.py` in the same directory as the notebook for the code to run.  
 
 ### Chapter 3 Notebook
 ([Chapter 3 Notebook](./ch3_py.ipynb)) This notebook is in Python and covers further details of Gaussian Process modeling, comparing different kernel configurations and hyperparameter tuning across varying training set sizes. It also uses GPyTorch and requires the `easygpr_helper.py` file for execution. 
