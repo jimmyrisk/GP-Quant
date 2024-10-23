@@ -1,13 +1,15 @@
 # GP-Quant
 Companion code for Gaussian Process Models for Quantitative Finance by Mike Ludkovski and Jimmy Risk
 
-### Versions
+### Software and Package Versions
 
 All companion code was ran successfully with the following versions:
 
 * ``R``: 4.2.1
 * ``Python``: 3.11.4
   * Packages: ``numpy`` 1.25.2, ``matplotlib`` 3.9.2, ``seaborn`` 0.13.2; **ch2 and ch3**: ``torch`` 2.0.1, ``gpytorch`` 1.11; **ch7**: ``tensorflow`` 2.17, ``tensorflow-probability`` 0.24.0
+
+## Table of Contents
 
 ### Chapter 2 Notebook
 ([Chapter 2 Notebook](./ch2_py.ipynb)) This notebook is in Python and reproduces plots from Chapter 2, demonstrating Gaussian Process surrogates using a synthetic univariate response function \( f(x) = -0.1 x^2 + \sin(3x) \).  It uses the GPyTorch library.  **IMPORTANT!**  Place `easygpr_helper.py` in the same directory as the notebook for the code to run.  
@@ -23,3 +25,10 @@ All companion code was ran successfully with the following versions:
 
 ### Chapter 7 Notebook
 ([Chapter 7 Notebook](./ch7_py.ipynb)) This notebook constructs a Gaussian Process model for natural gas forward curves, modeling annual seasonality with additive kernels. It uses the TensorFlow library and reproduces Figure 7.2 from Section 7.2. 
+
+
+## License
+
+All code is copyrighted under the MIT License; see [link](./LICENSE) for details.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
