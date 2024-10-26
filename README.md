@@ -24,7 +24,7 @@ All companion code was ran successfully with the following versions:
 ([Chapter 5 Notebook](./ch5_R.pdf)) ([.Rmd](./ch5_R.Rmd)) This notebook is in R and tackles Bermudan option pricing with Gaussian Processes using the Regression Monte Carlo (RMC) approach. It applies the [``mlOSP``](https://github.com/mludkov/mlOSP) package to build emulators for Bermudan Put options, showing both one- and two-dimensional examples. It includes dynamic emulation, sequential design, and adaptive batching techniques.
 
 ### Chapter 6 Notebook
-([Chapter 6 Notebook](./ch6_R.pdf)) ([.Rmd](./ch6_R.Rmd)) This notebook constructs a Gaussian Process model for natural gas forward curves, modeling annual seasonality with additive kernels. It uses the TensorFlow library and reproduces Figure 6.2 from Section 6.2. 
+([Chapter 6 Notebook](./ch6_py.ipynb)) This notebook uses Python and TensorFlow to construct a Gaussian Process model for natural gas forward curves, modeling annual seasonality with additive kernels. It uses the TensorFlow library and reproduces Figure 6.2 from Section 6.2. 
 
 
 ## License
