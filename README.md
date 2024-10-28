@@ -1,5 +1,5 @@
 # GP-Quant
-Companion code for *Gaussian Process Models for Quantitative Finance* by Mike Ludkovski and Jimmy Risk
+Companion code for the monograph *Gaussian Process Models for Quantitative Finance* by Mike Ludkovski and Jimmy Risk. Last update: October 2024.
 
 ### Software and Package Versions
 
@@ -18,7 +18,7 @@ All companion code was ran successfully with the following versions:
 ([Chapter 2 Notebook](./ch2_py.ipynb)) This notebook is in Python and covers further details of Gaussian Process modeling, comparing different kernel configurations and hyperparameter tuning across varying training set sizes. It also uses GPyTorch and requires the `easygpr_helper.py` file for execution. 
 
 ### Chapter 4 Notebook
-([Chapter 4 Notebook](./ch4_R.pdf)) ([.Rmd](./ch4_R.Rmd)) This notebook is in R and illustrates the use of Gaussian Process surrogates for estimating option prices and Greeks, focusing on both the Heston and Black-Scholes models. It demonstrates GP fitting, hyperparameter optimization, and inference of Delta, Theta, and Gamma using both Squared-Exponential and Matern-5/2 kernels.
+([Chapter 4 Notebook](./ch4_R.pdf)) ([.Rmd](./ch4_R.Rmd)) This notebook is in R and illustrates the use of Gaussian Process surrogates for estimating option prices and Greeks, focusing on both the Heston and Black-Scholes models. It demonstrates GP fitting, hyperparameter optimization, and inference of Delta, Theta, and Gamma using both Squared-Exponential and Matern-5/2 kernels. The notebook relies on the ``DiceKriging'' GP library and the ``randtoolbox'' library for QMC sampling.
 
 ### Chapter 5 Notebook
 ([Chapter 5 Notebook](./ch5_R.pdf)) ([.Rmd](./ch5_R.Rmd)) This notebook is in R and tackles Bermudan option pricing with Gaussian Processes using the Regression Monte Carlo (RMC) approach. It applies the [``mlOSP``](https://github.com/mludkov/mlOSP) package to build emulators for Bermudan Put options, showing both one- and two-dimensional examples. It includes dynamic emulation, sequential design, and adaptive batching techniques.
