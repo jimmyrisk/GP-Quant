@@ -2,7 +2,7 @@
 title: 'R Notebook for Chapter 4: Option Pricing and Sensitivities'
 subtitle: 'Companion Code to Gaussian Process Models for Quantitative Finance'
 author: "Mike Ludkovski, Jimmy Risk"
-date: "04/15/2024"
+date: "10/29/2024"
 output:
   pdf_document: default
   html_document:
@@ -16,7 +16,9 @@ knitr::opts_chunk$set(echo = TRUE,cache=TRUE)
 
 This RMarkdown file presents an illustrative use of Gaussian Process surrogates for estimation of option prices and sensitivities, linking to **Chapter 4** of the book. We directly embed `R` code snippets to showcase the straightforward use of the methodology.
 
-```{r init, echo=FALSE, include=FALSE}
+The main libraries used are `DiceKriging`, `randtoolbox` and `rgenoud`. The other libraries loaded below are for processing the results and auxiliary computations beyond the GP modeling. 
+
+```{r init}
 library(rgenoud)   # MLE optimization
 library(DiceKriging)   # main GP library
 library(fields) 
